@@ -1,0 +1,17 @@
+BEGIN
+    SET temperature = n
+    SET temperature_type = ""
+
+    IF "fahrenheit"
+        DO CALCULATE fahrenheit = (N-32) * (5/9)
+    DISPLAY fahrenheit
+    ENDIF
+    IF "kelvin"
+        DO CALCULATE kelvin = (N-273.15)
+    DISPLAY kelvin
+    ENDIF
+    IF "celcius"
+        DO CALCULATE celcius = N
+    DISPLAY celcius
+    ENDIF
+END

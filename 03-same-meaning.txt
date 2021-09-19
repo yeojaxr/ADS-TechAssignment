@@ -1,0 +1,16 @@
+BEGIN
+    SET sentence = input()
+
+    FOR (i=0; i<sentence.length; i++)
+
+    SET polindrome = sentence[sentence.length]
+    sentence.length - 1
+    ENDFOR
+
+    IF sentences == polindrome
+        OUTPUT "True"
+    ENDIF
+    IF sentences != polindrome
+        OUTPUT "False"
+    ENDIF
+END

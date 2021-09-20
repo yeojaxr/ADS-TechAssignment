@@ -3,7 +3,7 @@ BEGIN
     SET n = input number
 
     WHILE counter < n
-		INCREMENT counter
+	INCREMENT counter
         IF n%3 = 0
             DISPLAY "Fizz"
         IF n%5 = 0
